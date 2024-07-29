@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center;     /* Centers vertically */
-    height: 40%;           /* Full viewport height, adjust as needed */
+    height: 100vh;           /* Full viewport height, adjust as needed */
   }
   
   .container {
