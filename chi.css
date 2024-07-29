@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    height: 40%px;           /* Full viewport height, adjust as needed */
+  }
+  
+  .container {
+    margin: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(45, 53, 74);
+    color: aliceblue;
+    filter: drop-shadow(2px 2px 10px black);
+    max-width: 90%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .choi {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  
+  .choi button {
+    border-radius: 20px;
+    border: none;
+  }
+  
+  .gauche{
+    float: left;
+    display: flex;
+    margin: 10px;
+    gap: 1000px;
+  }
+  .droite {
+    float: right;
+    display: flex;
+    margin: 10px;
+    gap: 1000px;
+  }
+  
+  .h3 h3 {
+    margin: 40px 0;
+  }
+  
+  .rt {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .bouton {
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+  }
+  .IFin{
+    width: 50px;
+  }
+  button:hover {
+    filter: drop-shadow(2px 2px 10px black);
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      width: 100%;
+      padding: 5px;
+    }
+  
+    .choi {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .gauche,
+    .droite {
+      float: none;
+      text-align: center;
+    }
+  
+    .bouton {
+      width: 80%;
+    }
+  }
+  
